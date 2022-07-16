@@ -1,0 +1,403 @@
+* {
+    margin: 0px auto;
+  }
+  :root {
+    scrollbar-width: none !important;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  /* fonts */
+  @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,100&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway:ital,wght@0,500;0,700;1,100&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&family=Raleway:ital,wght@0,500;0,700;1,100&display=swap");
+  
+  @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Serif+Pro&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;900&display=swap");
+  @font-face {
+    font-family: "Kodchasan-Bold";
+    src: url(../fonts/Kodchasan-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Kodchasan";
+    src: url(../fonts/Kodchasan-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ZenTokyoZoo";
+    src: url(../fonts/ZenTokyoZoo-Regular.ttf);
+    font-weight: normal;
+    font-style: bold;
+  }
+  
+  /* !!! */
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: url(../fonts/Poppins-Medium.ttf);
+    font-weight: 500;
+    font-style: medium;
+  }
+  
+  /* !! */
+  @font-face {
+    font-family: "Spartan-SemiBold";
+    src: url(../fonts/Spartan-SemiBold.ttf);
+    font-weight: 700;
+    font-style: semi-bold;
+  }
+  
+  @font-face {
+    font-family: "Ubuntu";
+    src: url(../fonts/Ubuntu-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* HTML */
+  html {
+    scroll-behavior: smooth;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  #header {
+    /* display: none; */
+    height: auto;
+    background: linear-gradient(
+      45deg,
+      rgba(0, 26, 255, 0.603) 30%,
+      rgba(255, 0, 0, 0.514)
+    );
+    padding: 10px 0px 10px 30px;
+    border-bottom: 8px solid;
+    border-image: conic-gradient(rgba(0, 0, 255, 0.603), rgba(255, 0, 0, 0.514)) 1;
+  }
+  /* header */
+  
+  body {
+    margin: 0px;
+  }
+  
+  h3 {
+    font-family: "ZenTokyoZoo";
+    color: white;
+    text-transform: uppercase;
+    margin: 0px auto;
+    /* padding-top: 15px; */
+    font-size: 40px;
+  }
+  
+  #menuNav {
+    float: right;
+    list-style: none;
+  }
+  
+  #header li a {
+    display: block;
+    text-decoration: none;
+  }
+  main {
+    width: 100vw;
+    height: auto;
+  }
+  
+  /* presentacion */
+  #main-miPresentacion {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagenes/general/code2.jpg);
+    background-repeat: repeat;
+    background-size: 50% 50%;
+    color: white;
+    font-family: "Kodchasan-Bold";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* text-shadow: 5px 2px 7px #fff; */
+  }
+  
+  #main-miPresentacion-content {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-tituloPresentacion {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    text-shadow: 17px 15px 15px #1c0099;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .main-img {
+    clip-path: circle();
+    width: 190px;
+    height: 150px;
+    margin: 0px;
+  }
+  
+  #main-parrafoPresentacion {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    width: 93%;
+    margin-bottom: 50px;
+  }
+  
+  .main-parrafoPresentacion-a {
+    color: rgb(4, 0, 255);
+    text-decoration: none;
+    transition: all 400ms;
+  }
+  .main-parrafoPresentacion-a:hover {
+    color: rgb(0, 102, 255);
+    transform: scale(1.1);
+  }
+  
+  .main-button {
+    margin-top: 150px;
+  }
+  
+  .main-button-a {
+    background-color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 6px;
+    border: 2px solid #010733;
+    font-weight: 600;
+    font-size: 25px;
+    transition: 800ms;
+  }
+  
+  .main-button-a:hover {
+    color: white;
+    background-color: black;
+  }
+  
+  /* presentacion */
+  
+  /* portfolio */
+  #miPortfolio {
+    background: url(../imagenes/program1.jpg);
+    background-size: 50% 100%;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .portfolio-infoDivs {
+    border-radius: 15px;
+    width: 300px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    transition: 300ms;
+  }
+  
+  .pPortfolio a {
+    text-decoration: none;
+    color: white;
+    margin: 0px auto;
+    font-family: "Ubuntu";
+    font-size: 40px;
+  }
+  
+  #portfolio,
+  #blog,
+  #contact {
+    transition: all 400ms linear;
+    background-image: linear-gradient(rgb(4, 6, 183) 20%, rgb(139, 4, 4));
+    border: 9px solid;
+    border-image: conic-gradient(
+        rgb(185, 14, 14),
+        rgb(185, 14, 14),
+        rgba(0, 4, 255, 0.86),
+        rgba(0, 2, 165, 0.92),
+        rgba(2, 5, 165, 0.92),
+        rgba(0, 4, 255, 0.86),
+        rgb(185, 14, 14),
+        rgb(185, 14, 14)
+      )
+      1;
+  }
+  #portfolio:hover {
+    transition: all 400ms linear;
+    background-image: linear-gradient(rgb(139, 4, 4) 20%, rgb(4, 6, 183));
+    border-image: conic-gradient(
+      rgba(0, 2, 165, 0.92),
+      rgba(0, 4, 255, 0.86),
+      rgb(185, 14, 14),
+        rgb(185, 14, 14),
+        rgb(185, 14, 14)
+        rgb(185, 14, 14),
+        rgba(0, 4, 255, 0.86),
+        rgba(2, 5, 165, 0.92)
+      )
+      1;
+  }
+  #blog:hover {
+    transition: all 400ms linear;
+    background-image: linear-gradient(rgb(139, 4, 4) 20%, rgb(4, 6, 183));
+    border-image: conic-gradient(
+      rgba(0, 2, 165, 0.92),
+      rgba(0, 4, 255, 0.86),
+      rgb(185, 14, 14),
+        rgb(185, 14, 14),
+        rgb(185, 14, 14)
+        rgb(185, 14, 14),
+        rgba(0, 4, 255, 0.86),
+        rgba(2, 5, 165, 0.92)
+      )
+      1;
+  }
+  #contact:hover {
+    transition: all 400ms linear;
+    background-image: linear-gradient(rgb(139, 4, 4) 20%, rgb(4, 6, 183));
+    border-image: conic-gradient(
+      rgba(0, 2, 165, 0.92),
+      rgba(0, 4, 255, 0.86),
+      rgb(185, 14, 14),
+        rgb(185, 14, 14),
+        rgb(185, 14, 14)
+        rgb(185, 14, 14),
+        rgba(0, 4, 255, 0.86),
+        rgba(2, 5, 165, 0.92)
+      )
+      1;
+  }
+  /* GAMA DE VIOLETAS Y ROSAS */
+  /* #blog {
+    transition: all 900ms ease-in-out;
+    background-image: linear-gradient(rgb(185, 14, 102) 20%, rgb(17, 0, 252));
+    border: 9px solid;
+    border-image: conic-gradient( rgba(32, 0, 192, 0.98),rgba(0, 2, 165, 0.92),rgba(0, 4, 255, 0.86), rgb(185, 14, 102),rgb(185, 14, 102),rgb(185, 14, 102),rgb(185, 14, 102),rgb(185, 14, 102), rgb(185, 14, 102), rgba(0, 4, 255, 0.86), rgba(0, 2, 165, 0.92), rgba(32, 0, 187, 0.98) ) 1;
+  } */
+  /* #contact, #portfolio, #blog {
+    background: linear-gradient(rgb(38, 0, 255) 20%, rgb(202, 0, 123));
+    border: 9px solid;
+    border-image: conic-gradient(rgb(185, 14, 102),rgb(185, 14, 102) ,rgb(185, 14, 102),rgba(32, 0, 192, 0.98),rgba(0, 4, 255, 0.86), rgba(0, 2, 165, 0.92), rgba(2, 5, 165, 0.92), rgba(0, 4, 255, 0.86),  rgba(32, 0, 187, 0.98),rgb(185, 14, 102), rgb(185, 14, 102), rgb(185, 14, 102)) 1;
+  }
+  #blog:hover{
+    transition: all 900ms ease-in-out;
+    background: linear-gradient( rgb(202, 0, 123)20%, rgb(38, 0, 255));
+    border-image: conic-gradient( rgba(32, 0, 192, 0.98), rgba(0, 2, 165, 0.92), rgba(0, 4, 255, 0.86), rgb(185, 14, 102), rgb(185, 14, 102), rgb(185, 14, 102), rgb(185, 14, 102), rgba(0, 4, 255, 0.86), rgba(0, 2, 165, 0.92), rgba(32, 0, 187, 0.98) ) 1;
+  }
+  #portfolio:hover{
+    transition: all 900ms ease-in-out;
+    background: linear-gradient( rgb(202, 0, 123)20%, rgb(38, 0, 255));
+    border-image: conic-gradient( rgba(32, 0, 192, 0.98), rgba(0, 2, 165, 0.92), rgba(0, 4, 255, 0.86), rgb(185, 14, 102), rgb(185, 14, 102), rgb(185, 14, 102), rgb(185, 14, 102), rgba(0, 4, 255, 0.86), rgba(0, 2, 165, 0.92), rgba(32, 0, 187, 0.98) ) 1;
+  }
+  #contact:hover{
+    transition: all 900ms ease-in-out;
+    background: linear-gradient( rgb(202, 0, 123)20%, rgb(38, 0, 255));
+    border-image: conic-gradient( rgba(32, 0, 192, 0.98), rgba(0, 2, 165, 0.92), rgba(0, 4, 255, 0.86), rgb(185, 14, 102), rgb(185, 14, 102), rgb(185, 14, 102), rgb(185, 14, 102), rgba(0, 4, 255, 0.86), rgba(0, 2, 165, 0.92), rgba(32, 0, 187, 0.98) ) 1;
+  } */
+  /* portfolio */
+  
+  /* FOOTER */
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(45deg, rgb(37, 6, 185), rgb(202, 0, 123));
+    width: 100vw;
+    height: auto;
+    margin-top: -1px;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+  
+  h5 {
+    /* background: linear-gradient(
+      45deg,
+      rgba(255, 0, 0, 0.514),
+      rgba(0, 0, 255, 0.603)
+    ); */
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 15px;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 30px;
+    font-family: "Kodchasan-Bold";
+    text-shadow: 2px 2px 4px black;
+    color: white;
+    font-size: 60px;
+  }
+  /*  */
+  #section {
+    display: flex;
+    justify-content: center;
+  }
+  #footercontact {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+  .Lifootercontact {
+    margin: 70px;
+    margin-top: 50px;
+    color: white;
+  }
+  .Lifootercontact a {
+    text-shadow: 3px 2px 6px white;
+    color: black;
+    font-family: "Kodchasan-Bold";
+    padding: 15px;
+  }
+  .wpp,
+  .gmail,
+  .ig,
+  .LinkIn {
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 50px;
+  }
+  .wpp {
+    background-color: #00bb2cc0;
+  }
+  .gmail {
+    background-color: #db4939be;
+  }
+  .ig {
+    background-color: rgba(255, 219, 128, 0.808);
+  }
+  .LinkIn {
+    background-color: #0a66c2;
+  }
+  
+  #footer_copy {
+    color: white;
+    font-family: "Kodchasan";
+    font-size: 20px;
+    position: relative;
+  }
+  

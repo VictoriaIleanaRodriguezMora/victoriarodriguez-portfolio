@@ -1,0 +1,228 @@
+/* PRESENTACION */
+@media (max-width: 1251px) {
+    .main-tituloPresentacion {
+      font-size: 45px;
+    }
+    #main-parrafoPresentacion {
+      font-size: 32px;
+      width: 90%;
+    }
+    .main-img {
+      width: 150px;
+      height: 110px;
+    }
+  }
+  /* 946 */
+  @media (max-width: 946px) {
+    #main-parrafoPresentacion {
+      font-size: 30px;
+      width: 85%;
+    }
+  }
+  @media (max-width: 770px) {
+    #main-parrafoPresentacion {
+      font-size: 28px;
+      width: 96%;
+    }
+    .main-tituloPresentacion {
+      font-size: 40px;
+      padding-top: 20%;
+    }
+    .main-img {
+      width: 140px;
+      height: 100px;
+    }
+  }
+  @media (max-width: 530px) {
+    #main-parrafoPresentacion {
+      font-size: 27px;
+      width: 98%;
+    }
+    .main-tituloPresentacion {
+      font-size: 30px;
+      padding-top: 0%;
+    }
+    .main-img {
+      display: none;
+    }
+    .main-button-a {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 430px) {
+    #main-parrafoPresentacion {
+      font-size: 23px;
+      width: 98%;
+    }
+    .main-button-a {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 320px) {
+    #main-parrafoPresentacion {
+      font-size: 19px;
+      width: 98%;
+    }
+    .main-tituloPresentacion {
+      font-size: 28px;
+      padding-top: 140px;
+    }
+  }
+  /* PRESENTACION */
+  
+  /* PORTFOLIO */
+  /* 1200 */
+  @media (max-width: 1200px) {
+    .portfolio-infoDivs {
+      width: 260px;
+      height: 200px;
+    }
+  }
+  /* 1000 */
+  @media (max-width: 1000px) {
+    #miPortfolio {
+      display: flex;
+      flex-direction: column;
+      background-size: 50% 50%;
+      height: 100vh;
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+    .portfolio-infoDivs {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+  /* 700 */
+  @media (max-width: 700px) {
+    #miPortfolio {
+      background-size: 100% 50%;
+    }
+  }
+  /* 600 */
+  @media (max-width: 600px) {
+    .portfolio-infoDivs {
+      width: 210px;
+      height: 140px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .pPortfolio a {
+      font-size: 30px;
+    }
+  }
+  /* 400 */
+  @media (max-width: 400px) {
+    #miPortfolio {
+      background-size: 100% 33.5%;
+    }
+    .portfolio-infoDivs {
+      width: 170px;
+      height: 120px;
+    }
+    .pPortfolio a {
+      font-size: 27px;
+    }
+  }
+  /* 250 */
+  @media (max-width: 250px) {
+    #miPortfolio {
+      background-size: 100% 25%;
+    }
+    .portfolio-infoDivs {
+      width: 130px;
+      height: 100px;
+    }
+    .pPortfolio a {
+      font-size: 22px;
+    }
+  }
+  /* 220 */
+  @media (max-width: 220px) {
+    .portfolio-infoDivs {
+      width: 140px;
+      height: 140px;
+    }
+    .pPortfolio a {
+      font-size: 25px;
+    }
+  }
+  /* PORTFOLIO */
+  
+  /* FOOTER */
+  /* 1168 */
+  @media (max-width: 1168px) {
+    .Lifootercontact {
+      margin: 20px;
+    }
+  }
+  /* 720 */
+  @media (max-width: 721px) {
+    footer {
+      padding-bottom: 25%;
+    }
+    .Lifootercontact a {
+      font-size: 40px;
+    }
+  }
+  /* 546 */
+  @media (max-width: 546px) {
+    footer {
+      padding-bottom: 30%;
+    }
+    #footercontact {
+      display: grid;
+      grid-template-columns: 25% 25%;
+      grid-gap: 50px;
+      row-gap: 10px;
+      margin-left: -80px;
+    }
+    .Lifootercontact a {
+      font-size: 35px;
+      margin: 0px;
+      display: flex;
+      justify-content: center;
+    }
+    .wpp,
+    .gmail,
+    .ig,
+    .LinkIn {
+      width: 100%;
+    }
+    #footer_copy {
+      left: 10px;
+    }
+  }
+  /* 530 */
+  @media (max-width: 530px) {
+    .Lifootercontact a {
+      font-size: 35px;
+      margin: 0px;
+    }
+  }
+  
+  /* 422 */
+  @media (max-width: 422px) {
+    footer h5 {
+      font-size: 30px;
+    }
+    .Lifootercontact a {
+      padding: 10px;
+      border-radius: 15px;
+      font-size: 40px;
+    }
+  }
+  /* 358 */
+  @media (max-width: 358px) {
+    .Lifootercontact a {
+      padding: 5px;
+    }
+    .Lifootercontact {
+      margin: 10px;
+    }
+    footer {
+      padding-bottom: 15%;
+    }
+  }
+  
