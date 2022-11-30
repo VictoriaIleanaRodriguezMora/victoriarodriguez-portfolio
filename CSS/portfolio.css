@@ -1,321 +1,373 @@
 * {
-    margin: 0px auto;
-  }
-  :root {
-    scrollbar-width: none !important;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  ::-webkit-scrollbar {
-    width: 0;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  /* fonts */
-  
-  @font-face {
-    font-family: "ZenTokyoZoo";
-    src: url(../fonts/ZenTokyoZoo-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Kodchasan";
-    src: url(../fonts/Kodchasan-Regular.ttf);
-    font-weight: 700;
-    font-style: bold;
-  }
-  @font-face {
-    font-family: "Kodchasan-Bold";
-    src: url(../fonts/Kodchasan-Bold.ttf);
-    font-weight: 700;
-    font-style: bold;
-  }
-  li {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-  }
-  /* fonts */
-  
-  * {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  /* HEADER */
-  #header {
-    height: auto;
-    background-image: linear-gradient(45deg, rgb(2, 11, 93) 30%, rgb(169, 8, 8));
-    padding: 15px 0px 15px 30px;
-    border-bottom: 8px solid;
-    border-image: conic-gradient(rgb(0, 0, 255), rgba(255, 0, 0, 0.9)) 1;
-  }
-  header h3 {
-    font-family: "ZenTokyoZoo";
-    text-transform: uppercase;
-    margin: 0px auto;
-    font-size: 40px;
-  }
-  #header h3 a {
-    text-decoration: none;
-    color: white;
-  } 
-  /* HEADER */
-  
-  /* SECTION */
-  
-  #container {
-    font-family: "Kodchasan";
-    background-image: linear-gradient(rgb(6, 15, 101), rgb(0, 0, 54));
-    width: 100vw;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-      padding-bottom: 10%;
-  }
-  
-  /* parrafo presentacion */
-  #presentacion-tittle {
-    font-family: "Kodchasan-Bold";
-    font-size: 60px;
-    text-align: center;
-    padding: 2%;
-    width: 70%;
-    background-color: rgb(169, 8, 8);
-    margin: 10% 0px 10% 0px;
-    color: white;
-    border-radius: 78px;
-  }
-  .parrafo-Presentacion {
-    max-width: 800px;
-    margin: 0px auto;
-    text-align: center;
-    margin-bottom: 100px;
-    background-color: #f0ffff7a;
-    padding: 0px 30px 20px 30px;
-    border-radius: 20px;
-    margin-top: 30px;
-    padding: 15px;
-    margin: 25px 15px 50px 15px;
-    font-size: 35px;
-  }
-  
-  /* parrafo presentacion */
-  #layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2%;
-    row-gap: 150px;
-  }
-  
-  #jobs {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .jobs-tittle {
-    font-size: 42px;
-    color: white;
-    padding: 13px;
-    text-decoration: none;
-    background-color: #000000d4;
-    width: 75%;
-    text-align: center;
-    transition: all 350ms ease-in-out;
-    border-radius: 25px;
-    margin: 10px;
-  }
-  .jobs-tittle:hover {
-    color: black;
-    background-color: white;
-  }
-  .p_capa-efecto {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-  }
-  .capa-efecto_tittle {
-    color: white;
-    font-size: 30px;
-    font-weight: 400;
-    text-align: center;
-    width: 89%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  }
-  .tecnologias-año {
-    color: white;
-    font-size: 25px;
-    font-family: "Kodchasan";
-  }
-  .fa-html5 {
-    color: #e56026;
-  }
-  .fa-css3-alt {
-    color: #0a66c2;
-  }
-  .fa-js {
-    color: #f7e018;
-  }
-  .trabajos {
-    box-shadow: 4px 5px 17px 12px #0000008f;
-    width: 380px;
-    height: 300px;
-    border: 5px solid #000000d2;
-    background-color: rgb(255, 255, 255);
-    background-size: 100% 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40px;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    transition: all 500ms ease-in-out;
-    margin: auto;
-  }
-  .trabajos:hover {
-    background-size: 110% 110%;
-    background-position: -15px 5px;
-  }
-  .trabajos .capa-efecto {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.705);
-    transition: all 350ms ease-in-out;
-    visibility: hidden;
-    opacity: 0;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-    font-family: "Kodchasan-Bold";
-  }
-  .trabajos:hover .capa-efecto {
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  #p_jobs_tittle {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .trabajo1 {
-    background-image: url(../imagenes/portfolio-imagenes/st.png);
-    background-size: 100% 100%;
-    background-position: 0px -5px;
-  }
-  .trabajo2 {
-    background-image: url(../imagenes/portfolio-imagenes/pokeapi.jpg);
-  }
-  .trabajo3 {
-    background-image: url(../imagenes/portfolio-imagenes/login.jpg);
-  }
-   .trabajo4 {
-    background-image: url(../imagenes/portfolio-imagenes/colorgame.jpg  );
-  }
-  .trabajo5 {
-    background-image: url(../imagenes/portfolio-imagenes/todolist.jpg);
-  }
-  .trabajo6 {
-    background-image: url(../imagenes/portfolio-imagenes/weatherchannel.jpg);
-  }
-  /* SECTION */
-  
-  /* FOOTER */
-  footer {
-    display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(45deg, rgb(37, 6, 185), rgb(202, 0, 123));
-    width: 100vw;
-    height: auto;
-    margin-top: -1px;
-    align-items: center;
-    padding-bottom: 5%;
-  }
-  
-  h5 {
-    /* background: linear-gradient(
+  margin: 0px auto;
+}
+
+:root {
+  scrollbar-width: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* fonts */
+
+@font-face {
+  font-family: "ZenTokyoZoo";
+  src: url(../fonts/ZenTokyoZoo-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kodchasan";
+  src: url(../fonts/Kodchasan-Regular.ttf);
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Kodchasan-Bold";
+  src: url(../fonts/Kodchasan-Bold.ttf);
+  font-weight: 700;
+  font-style: bold;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* fonts */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* HEADER */
+#header {
+  height: auto;
+  background-image: linear-gradient(45deg, rgb(2, 11, 93) 30%, rgb(169, 8, 8));
+  padding: 15px 0px 15px 30px;
+  border-bottom: 8px solid;
+  border-image: conic-gradient(rgb(0, 0, 255), rgba(255, 0, 0, 0.9)) 1;
+}
+
+header h3 {
+  font-family: "ZenTokyoZoo";
+  text-transform: uppercase;
+  margin: 0px auto;
+  font-size: 40px;
+}
+
+#header h3 a {
+  text-decoration: none;
+  color: white;
+}
+
+/* HEADER */
+
+/* SECTION */
+
+#container {
+  font-family: "Kodchasan";
+  background-image: linear-gradient(rgb(6, 15, 101), rgb(0, 0, 54));
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+/* parrafo presentacion */
+#presentacion-tittle {
+  font-family: "Kodchasan-Bold";
+  font-size: 60px;
+  text-align: center;
+  padding: 2%;
+  width: 70%;
+  background-color: rgb(169, 8, 8);
+  margin: 10% 0px 10% 0px;
+  color: white;
+  border-radius: 78px;
+}
+
+.parrafo-Presentacion {
+  max-width: 800px;
+  margin: 0px auto;
+  text-align: center;
+  margin-bottom: 100px;
+  background-color: #f0ffff7a;
+  padding: 0px 30px 20px 30px;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 15px;
+  margin: 25px 15px 50px 15px;
+  font-size: 35px;
+}
+
+/* parrafo presentacion */
+#layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2%;
+  row-gap: 150px;
+}
+
+#jobs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.jobs-tittle {
+  font-size: 42px;
+  color: white;
+  padding: 13px;
+  text-decoration: none;
+  background-color: #000000d4;
+  width: 75%;
+  text-align: center;
+  transition: all 350ms ease-in-out;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.jobs-tittle:hover {
+  color: black;
+  background-color: white;
+}
+
+.p_capa-efecto {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.capa-efecto_tittle {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  width: 89%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.tecnologias-año {
+  color: white;
+  font-size: 25px;
+  font-family: "Kodchasan";
+}
+.fa-react {
+  color: #00cdf2;
+}
+.fa-html5 {
+  color: #e56026;
+}
+
+.fa-css3-alt {
+  color: #0a66c2;
+}
+
+.fa-js {
+  color: #f7e018;
+}
+
+.trabajos {
+  box-shadow: 4px 5px 17px 12px #0000008f;
+  width: 380px;
+  height: 300px;
+  border: 5px solid #000000d2;
+  background-color: rgb(255, 255, 255);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+  margin: auto;
+}
+
+.trabajos:hover {
+  background-size: 110% 110%;
+  background-position: -15px 5px;
+}
+
+.trabajos .capa-efecto {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.705);
+  transition: all 350ms ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  font-family: "Kodchasan-Bold";
+}
+
+.trabajos:hover .capa-efecto {
+  visibility: visible;
+  opacity: 1;
+}
+
+#p_jobs_tittle {
+  display: flex;
+  justify-content: center;
+}
+
+.trabajo1 {
+  background-image: url(../imagenes/portfolio-imagenes/st.png);
+  background-size: 100% 100%;
+  background-position: 0px -5px;
+}
+
+.trabajo2 {
+  background-image: url(../imagenes/portfolio-imagenes/pokeapi.jpg);
+}
+
+.trabajo3 {
+  background-image: url(../imagenes/portfolio-imagenes/login.jpg);
+}
+
+.trabajo4 {
+  background-image: url(../imagenes/portfolio-imagenes/colorgame.jpg  );
+}
+
+.trabajo5 {
+  background-image: url(../imagenes/portfolio-imagenes/todolist.jpg);
+}
+
+.trabajo6 {
+  background-image: url(../imagenes/portfolio-imagenes/weatherchannel.jpg);
+}
+
+.trabajo7 {
+  background-image: url(../imagenes/portfolio-imagenes/typerD.PNG);
+}
+
+.trabajo8 {
+  background-image: url(../imagenes/portfolio-imagenes/marvel.PNG);
+}
+.trabajo9 {
+  background-image: url(../imagenes/portfolio-imagenes/ecommerceReact.PNG);
+}
+/* SECTION */
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(45deg, rgb(37, 6, 185), rgb(202, 0, 123));
+  width: 100vw;
+  height: auto;
+  margin-top: -1px;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+h5 {
+  /* background: linear-gradient(
       45deg,
       rgba(255, 0, 0, 0.514),
       rgba(0, 0, 255, 0.603)
     ); */
-    padding: 15px;
-    color: white;
-    text-align: center;
-    font-size: 2rem;
-    border-radius: 15px;
-    width: 90%;
-    margin: 0px auto;
-    margin-top: 30px;
-    font-family: "Kodchasan-Bold";
-    text-shadow: 2px 2px 4px black;
-    color: white;
-    font-size: 60px;
-  }
-  /*  */
-  #section {
-    display: flex;
-    justify-content: center;
-  }
-  #footercontact {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    flex-wrap: wrap;
-  }
-  .Lifootercontact {
-    margin: 70px;
-    margin-top: 50px;
-    color: white;
-  }
-  .Lifootercontact a {
-    text-shadow: 3px 2px 6px white;
-    color: black;
-    font-family: "Kodchasan-Bold";
-    padding: 15px;
-  }
-  .wpp,
-  .gmail,
-  .ig,
-  .LinkIn {
-    padding: 10px;
-    border-radius: 15px;
-    font-size: 50px;
-  }
-  .wpp {
-    background-color: #00bb2cc0;
-  }
-  .gmail {
-    background-color: #db4939be;
-  }
-  .ig {
-    background-color: rgba(255, 219, 128, 0.808);
-  }
-  .LinkIn {
-    background-color: #0a66c2;
-  }
-  
-  #footer_copy {
-    color: white;
-    font-family: "Kodchasan";
-    font-size: 20px;
-    position: relative;
-  }
-  
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 15px;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 30px;
+  font-family: "Kodchasan-Bold";
+  text-shadow: 2px 2px 4px black;
+  color: white;
+  font-size: 60px;
+}
+
+/*  */
+#section {
+  display: flex;
+  justify-content: center;
+}
+
+#footercontact {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.Lifootercontact {
+  margin: 70px;
+  margin-top: 50px;
+  color: white;
+}
+
+.Lifootercontact a {
+  text-shadow: 3px 2px 6px white;
+  color: black;
+  font-family: "Kodchasan-Bold";
+  padding: 15px;
+}
+
+.wpp,
+.gmail,
+.ig,
+.LinkIn {
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 50px;
+}
+
+.wpp {
+  background-color: #00bb2cc0;
+}
+
+.gmail {
+  background-color: #db4939be;
+}
+
+.ig {
+  background-color: rgba(255, 219, 128, 0.808);
+}
+
+.LinkIn {
+  background-color: #0a66c2;
+}
+
+#footer_copy {
+  color: white;
+  font-family: "Kodchasan";
+  font-size: 20px;
+  position: relative;
+}

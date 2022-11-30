@@ -1,104 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="I'm Victoria Rodriguez and this is my portfolio"
+    />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Victoria Rodriguez Dev</title>
+    <link rel="stylesheet" href="./CSS/general.css" />
+    <link rel="stylesheet" href="./CSS/generalResponsive.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="description" content="I'm Victoria Rodriguez and this is my portfolio" />
-  <meta property="og:image" content="" />
-  <meta property="og:url" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Victoria Rodriguez Dev</title>
-  <link rel="stylesheet" href="./CSS/general.css" />
-  <link rel="stylesheet" href="./CSS/generalResponsive.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <body>
+    <main id="main">
+      <!-- presentacion -->
+      <div id="main-miPresentacion">
+        <article id="main-miPresentacion-content">
+          <h1 class="main-tituloPresentacion">
+            Hi, I'm Victoria Rodriguez.
+            <img src="./imagenes/general/avatarpro.jpeg" class="main-img" />
+          </h1>
 
-</head>
-
-<body>
-  <main id="main">
-    <!-- presentacion -->
-    <div id="main-miPresentacion">
-      <article id="main-miPresentacion-content">
-        <h1 class="main-tituloPresentacion">
-          Hi, I'm Victoria Rodriguez.
-          <img src="./imagenes/general/avatarpro.jpeg" class="main-img" />
-        </h1>
-
-        <p id="main-parrafoPresentacion">
-          I'm an Argentinian programming student. <br />
-          I've studied in academies like:
-          <a href="https://www.buenosaires.gob.ar/educacion/estudiantes/aprende-programando/aprende-programando-50"
-            class="main-parrafoPresentacion-a" target="_blank">
-            Aprende Programando 5.0</a>,
-          <a href="https://plataforma5.la/ar/online/intro" class="main-parrafoPresentacion-a" target="_blank">
-            Plataforma 5</a> and
-          <a href="https://www.coderhouse.com/online/carrera-online-desarrollo-fullstack"
-            class="main-parrafoPresentacion-a" target="_blank">
-            Coder House</a>. I'm going to study
-          <a href="https://www.frba.utn.edu.ar/ingreso/ingenieria-en-sistemas-de-informacion/"
-            class="main-parrafoPresentacion-a" target="_blank">Information System Engineer </a>in the "UTN". National
-          Technological University.
-        </p>
-      </article>
-      <button id="main-button">
-        <a href="#miPortfolio" class="main-button-a"> Know more</a>
-      </button>
-    </div>
-    <!-- presentacion -->
-
-    <!-- portfolio -->
-    <div id="miPortfolio">
-      <div id="portfolio" class="portfolio-infoDivs" data-aos="fade-up">
-        <p class="pPortfolio portfolio">
-          <a href="./HTML/portfolio.html">
-            <i class="fas fa-laptop-code"></i>Portfolio</a>
-        </p>
+          <p id="main-parrafoPresentacion">
+            I'm an Argentinian programming student.
+            <br />
+            I've studied in academies like:
+            <a
+              href="https://www.buenosaires.gob.ar/educacion/estudiantes/aprende-programando/aprende-programando-50"
+              class="main-parrafoPresentacion-a"
+              target="_blank"
+            >
+              Aprende Programando 5.0
+            </a>
+            ,
+            <a
+              href="https://plataforma5.la/ar/online/intro"
+              class="main-parrafoPresentacion-a"
+              target="_blank"
+            >
+              Plataforma 5
+            </a>
+            and
+            <a
+              href="https://www.coderhouse.com/online/carrera-online-desarrollo-fullstack"
+              class="main-parrafoPresentacion-a"
+              target="_blank"
+            >
+              Coder House
+            </a>
+            . I'm going to study
+            <a
+              href="https://www.frba.utn.edu.ar/ingreso/ingenieria-en-sistemas-de-informacion/"
+              class="main-parrafoPresentacion-a"
+              target="_blank"
+            >
+              Information System Engineer
+            </a>
+            in the "UTN". National Technological University.
+          </p>
+        </article>
+        <button id="main-button">
+          <a href="#miPortfolio" class="main-button-a">Know more</a>
+        </button>
       </div>
-      <div id="blog" class="portfolio-infoDivs" data-aos="fade-up">
-        <p class="pPortfolio blog">
-          <a href="./HTML/blog.html"><i class="fas fa-align-left"></i> Blog </a>
-        </p>
+      <!-- presentacion -->
+
+      <!-- portfolio -->
+      <div id="miPortfolio">
+        <div id="portfolio" class="portfolio-infoDivs" data-aos="fade-up">
+          <p class="pPortfolio portfolio">
+            <a href="./HTML/portfolio.html">
+              <i class="fas fa-laptop-code"></i>
+              Portfolio
+            </a>
+          </p>
+        </div>
+        <div id="blog" class="portfolio-infoDivs" data-aos="fade-up">
+          <p class="pPortfolio blog">
+            <a href="./HTML/blog.html">
+              <i class="fas fa-align-left"></i>
+              Blog
+            </a>
+          </p>
+        </div>
+        <div id="contact" class="portfolio-infoDivs" data-aos="fade-up">
+          <p class="pPortfolio contact">
+            <a href="#footer">
+              <i class="fas fa-comments"></i>
+              Contact
+            </a>
+          </p>
+        </div>
       </div>
-      <div id="contact" class="portfolio-infoDivs" data-aos="fade-up">
-        <p class="pPortfolio contact">
-          <a href="#footer"><i class="fas fa-comments"></i> Contact </a>
-        </p>
-      </div>
-    </div>
-    <!-- portfolio -->
-  </main>
+      <!-- portfolio -->
+    </main>
 
-  <!-- footer -->
-  <footer id="footer">
-    <h5>Find me:</h5>
-    <section id="section">
-      <ul id="footercontact">
-        <li class="Lifootercontact gmail" data-aos="zoom-in">
-          <a href="#"><i class="fas fa-envelope"></i></a>
-        </li>
-        <li class="Lifootercontact wpp" data-aos="zoom-in-right">
-          <a href="https://wa.me//5491133990583?text=Hola Victoria. Estoy interesad@ en saber...
-            Gracias. " target="_blank"><i class="fab fa-whatsapp"></i></a>
-        </li>
-        <li class="Lifootercontact LinkIn" data-aos="zoom-in-left">
-          <a href="www.linkedin.com/in/victoriarodriguezmora" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </li>
-        <li class="Lifootercontact ig" data-aos="zoom-in-left">
-          <a href="https://www.instagram.com/virmcode/?hl=es" target="_blank"><i class="fab fa-instagram"></i></a>
-        </li>
-      </ul>
-    </section>
+    <!-- footer -->
+    <footer id="footer">
+      <h5>Find me:</h5>
+      <section id="section">
+        <ul id="footercontact">
+          <li class="Lifootercontact gmail" data-aos="zoom-in">
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </li>
+          <li class="Lifootercontact wpp" data-aos="zoom-in-right">
+            <a
+              href="https://wa.me//5491133990583?text=Hola Victoria. Estoy interesad@ en saber...
+            Gracias. "
+              target="_blank"
+            >
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </li>
+          <li class="Lifootercontact LinkIn" data-aos="zoom-in-left">
+            <a href="www.linkedin.com/in/victoriarodriguezmora" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="Lifootercontact ig" data-aos="zoom-in-left">
+            <a href="https://www.instagram.com/virmcode/?hl=es" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
 
-    <h4 id="footer_copy">2021 &copy; Victoria Rodriguez</h4>
-  </footer>
+      <h4 id="footer_copy">2022 &copy; Victoria Rodriguez</h4>
+    </footer>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://kit.fontawesome.com/744e7f591a.js" crossorigin="anonymous"></script>
-  <script>
-    AOS.init();
-  </script>
-
-</body>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://kit.fontawesome.com/744e7f591a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      AOS.init()
+    </script>
+  </body>
 </html>
